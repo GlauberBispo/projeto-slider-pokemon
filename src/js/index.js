@@ -20,8 +20,7 @@ const cartoes = document.querySelectorAll(".cartao");
 const cartaoSelecionado = document.querySelector(".selecionado")
 let cartaoAtual = 0
 
-function esconderCartaoSelecionado()
-{
+function esconderCartaoSelecionado(indiceCartao){
     const cartaoSelecionado = document.querySelector(".selecionado");
     cartaoSelecionado.classList.remove("selecionado");
 }
